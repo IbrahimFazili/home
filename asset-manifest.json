@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/home/static/css/main.956fad23.chunk.css",
+    "main.js": "/home/static/js/main.2e0c05ec.chunk.js",
+    "main.js.map": "/home/static/js/main.2e0c05ec.chunk.js.map",
+    "runtime-main.js": "/home/static/js/runtime-main.3c590061.js",
+    "runtime-main.js.map": "/home/static/js/runtime-main.3c590061.js.map",
+    "static/js/2.a68400ee.chunk.js": "/home/static/js/2.a68400ee.chunk.js",
+    "static/js/2.a68400ee.chunk.js.map": "/home/static/js/2.a68400ee.chunk.js.map",
+    "index.html": "/home/index.html",
+    "precache-manifest.b83ab73804e741b0b9e1cd4ab596b67f.js": "/home/precache-manifest.b83ab73804e741b0b9e1cd4ab596b67f.js",
+    "service-worker.js": "/home/service-worker.js",
+    "static/css/main.956fad23.chunk.css.map": "/home/static/css/main.956fad23.chunk.css.map",
+    "static/js/2.a68400ee.chunk.js.LICENSE.txt": "/home/static/js/2.a68400ee.chunk.js.LICENSE.txt",
+    "static/media/ibrahimfazili.JPG": "/home/static/media/ibrahimfazili.0fbf0e81.JPG",
+    "static/media/oracle.png": "/home/static/media/oracle.e71d1ba8.png",
+    "static/media/resume.pdf": "/home/static/media/resume.53505d1a.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3c590061.js",
+    "static/js/2.a68400ee.chunk.js",
+    "static/css/main.956fad23.chunk.css",
+    "static/js/main.2e0c05ec.chunk.js"
+  ]
+}
