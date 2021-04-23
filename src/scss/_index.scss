@@ -123,6 +123,11 @@ code {
     transform: scaleX(0);
   }
 }
+
+.progress-bar {  // this is for the bar itself
+  background: linear-gradient(to right, #004e92, #43cea2 );
+}
+
 .progress-bar-animation {
   @extend .progress;
   & > * {

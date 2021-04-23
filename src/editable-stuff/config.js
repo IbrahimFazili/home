@@ -44,10 +44,11 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/ibrahimfazili.JPG"),
+  imageLink: require("../editable-stuff/ibrahimfazili.jpg"),
   imageSize: 375,
   message:
-    "My name is Ibrahim Fazili. I'm a third year undergraduate from the University of Toronto, currently pursuing a degree in Computer Science.",
+    "My name is Ibrahim Fazili. I'm a third year undergraduate from the University of Toronto, currently pursuing a degree in Computer Science.\
+     I'm currently an incoming Software Developer PEY Intern at Oracle Eloqua.",
   resume: require('../editable-stuff/resume.pdf'),
 };
 
@@ -60,7 +61,7 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "IbrahimFazili", //i.e."johnDoe12Gh"
-  reposLength: 4,
+  reposLength: 5,
   specificRepos: [],
 };
 
