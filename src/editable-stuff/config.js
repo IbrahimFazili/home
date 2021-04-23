@@ -5,31 +5,24 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  gradientColors: "#614385, #516395, #000428, #004e92, #185a9d, #43cea2, #19547b, #ffd89b, #f7bb97, #dd5e89",
+  // "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
+  firstName: "Ibrahim",
   middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  lastName: "Fazili",
+  message: " Excited about changing the world, one semi-colon at a time",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
-    },
-    {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
+      url: "https://github.com/IbrahimFazili",
     },
     {
       image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      url: "https://www.instagram.com/ibrahim_fazili/"
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
-    },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/ibrahimfazili/",
     },
   ],
 };
@@ -51,11 +44,11 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: require("../editable-stuff/ibrahimfazili.JPG"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "My name is Ibrahim Fazili. I'm a third year undergraduate from the University of Toronto, currently pursuing a degree in Computer Science.",
+  resume: require('../editable-stuff/resume.pdf'),
 };
 
 // PROJECTS SECTION
@@ -66,34 +59,34 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
+  gitHubUsername: "IbrahimFazili", //i.e."johnDoe12Gh"
   reposLength: 4,
   specificRepos: [],
 };
 
-// Leadership SECTION
-const leadership = {
-  show: false,
-  heading: "Leadership",
-  message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
-  images: [
-    { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
-    },
-    { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
-    },
-  ],
-  imageSize: {
-    width:"615",
-    height:"450"
-  }
-};
+// // Leadership SECTION
+// const leadership = {
+//   show: false,
+//   heading: "Leadership",
+//   message:
+//     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
+//   images: [
+//     { 
+//       img: require("../editable-stuff/hashirshoaeb.png"), 
+//       label: "First slide label", 
+//       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+//     },
+//     { 
+//       img: require("../editable-stuff/hashirshoaeb.png"), 
+//       label: "Second slide label", 
+//       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+//     },
+//   ],
+//   imageSize: {
+//     width:"615",
+//     height:"450"
+//   }
+// };
 
 // SKILLS SECTION
 const skills = {
@@ -102,21 +95,22 @@ const skills = {
   hardSkills: [
     { name: "Python", value: 90 },
     { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Data Structures", value: 60 },
+    { name: "C/C++", value: 70 },
+    { name: "JavaScript", value: 70 },
+    { name: "React", value: 75 },
+    { name: "HTML/CSS", value: 65 },
+    { name: "C", value: 80 },
+    { name: "Java", value: 80 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
     { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
+    { name: "Positivity", value: 85 },
     { name: "Adaptability", value: 85 },
     { name: "Problem Solving", value: 75 },
     { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
+    { name: "Organization", value: 80 },
     { name: "Creativity", value: 90 },
   ],
 };
@@ -126,8 +120,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+  email: "fazili.ibrahim@gmail.com",
 };
 
 const experiences = {
@@ -135,14 +129,14 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'Front End Developer @ Findr',// Here Add Company Name
+      companylogo: require('../assets/img/findr.png'),
+      date: 'May 2020 – January 2021',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Software Developer Intern @ Oracle',
+      companylogo: require('../assets/img/oracle.png'),
+      date: 'May 2021 – Present',
     },
   ]
 }
@@ -152,4 +146,4 @@ const experiences = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export { navBar, mainBody, about, repos, skills, getInTouch, experiences };
